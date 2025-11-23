@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Splasth.unity
+    guid: f7d5494710df63b4e8c338c8af96127e
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: fcc380f80b9024247920e16c65c50019
+  - enabled: 1
+    path: Assets/Scenes/GamePlay.unity
+    guid: 03bd6b31b9a2c4045b50f1af4b2dba99
+  - enabled: 1
+    path: Assets/Scenes/Resuld.unity
+    guid: 4b195f7025033f2499f4fcf221468fa4
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
