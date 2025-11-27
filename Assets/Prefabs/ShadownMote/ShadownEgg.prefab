@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 926232056991940343}
   - component: {fileID: 7451916035912436395}
+  - component: {fileID: -3436644202312410237}
+  - component: {fileID: -4038997436447107220}
+  - component: {fileID: 1172091065674635494}
   m_Layer: 0
   m_Name: ShadownEgg
   m_TagString: Untagged
@@ -84,3 +87,48 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-3436644202312410237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2925633464536102141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db26d8c5a25128f4587635bcdc39e978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minMoveDuration: 12
+  maxMoveDuration: 18
+  minIdle: 4
+  maxIdle: 8
+  padding: 0.1
+--- !u!114 &-4038997436447107220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2925633464536102141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fcf4d0a88549634c826b7b33f0cd33c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breathSpeed: 1.2
+  breathScale: 1.1
+--- !u!114 &1172091065674635494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2925633464536102141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fa6f723af746b448f6849a8a023ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleGrowth: 0.02
+  baseScale: {x: 0, y: 0, z: 0}
