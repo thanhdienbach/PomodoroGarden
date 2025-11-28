@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1172091065674635494}
   - component: {fileID: -4034995985975808533}
   m_Layer: 0
-  m_Name: ShadownEgg
+  m_Name: ShadownEgg 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -162,5 +162,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cffc28b40c73ad247844f40f545c7292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shadowMoteEgg: {fileID: 2925633464536102141, guid: 6c59e39d2f0488046b546f28f5d16718, type: 3}
+  shadowMoteEgg: {fileID: 2925633464536102141, guid: f828aaa6e2cd9454f8a07d9ff76fedb0, type: 3}
   shadowMote: {fileID: 5697112670904710143, guid: 928a68976b22e66418285ac325c3f92a, type: 3}
