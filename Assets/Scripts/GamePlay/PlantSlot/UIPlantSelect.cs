@@ -5,7 +5,7 @@ using UnityEngine;
 public class UIPlantSelect : MonoBehaviour
 {
     public static UIPlantSelect Instance;
-    private PlantSlot currentSlot;
+    private PlantSlot selectedSlot;
     public GameObject panel;
 
     private void Awake()
@@ -15,20 +15,19 @@ public class UIPlantSelect : MonoBehaviour
 
     public void Open(PlantSlot slot)
     {
-        currentSlot = slot;
+        selectedSlot = slot;
         panel.SetActive(true);
     }
 
     public void Close()
     {
         panel.SetActive(false);
+        selectedSlot = null;
     }
 
-    public void SelectPlant()
+    public void SelectPlant(PlantData plant)
     {
-        currentSlot.isEmpty = true;
-        //currentSlot.currentPlant = plant;
-        // Todo; Spawn cây trồng lên slot
+        selectedSlot.Plant(plant);
         Debug.Log("Đã trồng cây");
         Close();
     }
