@@ -9,7 +9,7 @@ public class PlantButton : MonoBehaviour
 
     public void OnClick()
     {
-        UIPlantSelect.Instance.SelectPlant(data);
+        UIManager.Instance.plantSelectPanle.plantInfoPanle.Show(data);
     }
 
 }

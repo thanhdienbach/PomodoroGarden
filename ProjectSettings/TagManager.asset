@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Tree
   - Water
   - UI
   - 
@@ -38,9 +38,24 @@ TagManager:
   - 
   - BackGround
   m_SortingLayers:
-  - name: BackGround
-    uniqueID: 2339620391
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: World Back Ground
+    uniqueID: 2339620391
+    locked: 0
+  - name: Ground
+    uniqueID: 3846514889
+    locked: 0
+  - name: PlantSlots
+    uniqueID: 871368087
+    locked: 0
+  - name: Plants
+    uniqueID: 4280480463
+    locked: 0
+  - name: FX
+    uniqueID: 2542108077
+    locked: 0
+  - name: UI
+    uniqueID: 2937323777
     locked: 0

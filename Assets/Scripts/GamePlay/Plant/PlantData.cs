@@ -13,8 +13,13 @@ public class PlantData : ScriptableObject
     public GameObject plantObject;
 
     [Header("Grow Setting")]
-    public int fullGrowTime;
-    public int cyclesPerLeaft;
+    public int cyclesPerLeft; // How much cycles to one leaft full grow
+    public PlanStageRule[] plantStageRule;
+
+    [Header("Stage Sprites")]
+    public Sprite seedSprite;
+    public Sprite growingSprite;
+    public Sprite matureSprite;
 
     [TextArea]
     public string description;

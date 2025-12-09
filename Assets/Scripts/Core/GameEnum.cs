@@ -5,3 +5,9 @@ public enum PlantType
     LongTerm,
     UltraLongTerm
 }
+public enum PlanStage
+{
+    Seed,
+    Grow,
+    Mature
+}

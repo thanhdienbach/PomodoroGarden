@@ -16,16 +16,12 @@ public class PlantSlot : MonoBehaviour
     {
         if (isEmpty)
         {
-            Debug.Log("Mở danh sách cây trồng");
-            UIPlantSelect.Instance.Open(this);
-        }
-        else
-        {
-            Debug.Log("Slot đã có cây");
+            UIManager.Instance.plantSelectPanle.gameObject.SetActive(true);
+            UIManager.Instance.plantSelectPanle.selectedSlot = this;
         }
     }
 
-    public void Plant(PlantData data)
+    public void Planting(PlantData data)
     {
         currentPlant = data;
         isEmpty = false;

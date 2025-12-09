@@ -3,17 +3,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    
-    public static GameManager instance;
+
+    public static GameManager Instance;
 
     [Header("Manager")]
     public ShadowMoteManager shadowMoteManager;
 
     private void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -21,22 +21,14 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             return;
         }
-
-
     }
     private void InitManager()
     {
-        if (shadowMoteManager != null)
-        {
-            shadowMoteManager.Init();
-        }
+        UIManager.Instance.Init();
     }
 
     private void Start()
     {
-        if (shadowMoteManager != null)
-        {
-            shadowMoteManager.StartManager();
-        }
+        UIManager.Instance.StartManager();
     }
 }
